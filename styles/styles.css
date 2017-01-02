@@ -1,5 +1,8 @@
 body {
   font-size: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .clearfix:after {
@@ -15,6 +18,9 @@ body {
   margin: auto;
 }
 
+nav {
+  background-color: aliceblue;
+}
 nav ul {
   list-style: none;
 }
@@ -33,4 +39,11 @@ img.intro-image {
   display: block;
   margin: auto;
   box-shadow: 2px 2px 5px black;
+}
+
+footer {
+  background-color: aliceblue;
+  font-size: .8rem;
+  padding: 2rem;
+  width: 100%;
 }
