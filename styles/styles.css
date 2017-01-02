@@ -1,8 +1,36 @@
+body {
+  font-size: 100%;
+}
+
+.clearfix:after {
+  content: " "; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
 .container {
   width: 90%;
   margin: auto;
 }
 
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+  padding: 1rem;
+}
+
 img {
   max-width: 100%;
+}
+
+img.intro-image {
+  max-width: 25rem;
+  display: block;
+  margin: auto;
+  box-shadow: 2px 2px 5px black;
 }
